@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Barack Obama - Contact</title>
+  <script src="scripts.js" defer></script>
+</head>
+<body class="body">
+<header class="header">
+    <h1>Barack Obama</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Biography</a></li>
+        <li><a href="awards.html">Awards</a></li>
+        <li><a href="form.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="contact-form">
+      <h2>Contact Barack Obama</h2>
+      <form id="contactForm" onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer1">
+    <p>&copy; 2023 Barack Obama. All rights reserved. <a href="https://policies.google.com/privacy?hl=en-US">Privacy Policy</a></p>
+  </footer>
+
+</body>
+</html>
