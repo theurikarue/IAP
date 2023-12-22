@@ -21,7 +21,7 @@ body {
   }
   
   nav ul li {
-    display: inline;
+    display:inline-flex;
     margin-right: 20px;
   }
   
@@ -48,8 +48,13 @@ body {
   }
 
 
+  .move{
+    margin: 0%;
+    margin-left: 42%;
+  }
+
   .pic{
-    display: block;
+    display:flex;
     margin: auto;
 
   }
